@@ -16,6 +16,15 @@
 		09AD8F0017A8C3AF0010CAC6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 09AD8EFF17A8C3AF0010CAC6 /* Default.png */; };
 		09AD8F0217A8C3AF0010CAC6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09AD8F0117A8C3AF0010CAC6 /* Default@2x.png */; };
 		09AD8F0417A8C3AF0010CAC6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09AD8F0317A8C3AF0010CAC6 /* Default-568h@2x.png */; };
+		09AD8F0D17A8C4830010CAC6 /* DummyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AD8F0B17A8C4830010CAC6 /* DummyViewController.m */; };
+		09AD8F0E17A8C4830010CAC6 /* DummyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09AD8F0C17A8C4830010CAC6 /* DummyViewController.xib */; };
+		09AD8F1217A8C4EF0010CAC6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AD8F1017A8C4EF0010CAC6 /* LoginViewController.m */; };
+		09AD8F1317A8C4EF0010CAC6 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09AD8F1117A8C4EF0010CAC6 /* LoginViewController.xib */; };
+		09AD8F1717A8C60C0010CAC6 /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AD8F1617A8C60C0010CAC6 /* AccountManager.m */; };
+		09AD8F1C17A8C9550010CAC6 /* InvocationLoginAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AD8F1B17A8C9550010CAC6 /* InvocationLoginAction.m */; };
+		09AD8F1F17A8CC450010CAC6 /* InvocationBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AD8F1E17A8CC120010CAC6 /* InvocationBuilder.m */; };
+		09AD8F2317A8CCBA0010CAC6 /* NSObject+Invocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AD8F2217A8CCB90010CAC6 /* NSObject+Invocation.m */; };
+		09AD8F2417A8CDD60010CAC6 /* NSInvocation+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AD8F1917A8C8F20010CAC6 /* NSInvocation+Utilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +41,23 @@
 		09AD8EFF17A8C3AF0010CAC6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		09AD8F0117A8C3AF0010CAC6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		09AD8F0317A8C3AF0010CAC6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		09AD8F0A17A8C4830010CAC6 /* DummyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DummyViewController.h; sourceTree = "<group>"; };
+		09AD8F0B17A8C4830010CAC6 /* DummyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DummyViewController.m; sourceTree = "<group>"; };
+		09AD8F0C17A8C4830010CAC6 /* DummyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DummyViewController.xib; sourceTree = "<group>"; };
+		09AD8F0F17A8C4EF0010CAC6 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		09AD8F1017A8C4EF0010CAC6 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		09AD8F1117A8C4EF0010CAC6 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		09AD8F1417A8C5F30010CAC6 /* GCDSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDSingleton.h; sourceTree = "<group>"; };
+		09AD8F1517A8C60C0010CAC6 /* AccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
+		09AD8F1617A8C60C0010CAC6 /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
+		09AD8F1817A8C8F20010CAC6 /* NSInvocation+Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+Utilities.h"; sourceTree = "<group>"; };
+		09AD8F1917A8C8F20010CAC6 /* NSInvocation+Utilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+Utilities.m"; sourceTree = "<group>"; };
+		09AD8F1A17A8C9550010CAC6 /* InvocationLoginAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvocationLoginAction.h; sourceTree = "<group>"; };
+		09AD8F1B17A8C9550010CAC6 /* InvocationLoginAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvocationLoginAction.m; sourceTree = "<group>"; };
+		09AD8F1D17A8CC120010CAC6 /* InvocationBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InvocationBuilder.h; sourceTree = "<group>"; };
+		09AD8F1E17A8CC120010CAC6 /* InvocationBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InvocationBuilder.m; sourceTree = "<group>"; };
+		09AD8F2117A8CCB90010CAC6 /* NSObject+Invocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Invocation.h"; sourceTree = "<group>"; };
+		09AD8F2217A8CCB90010CAC6 /* NSObject+Invocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Invocation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +104,26 @@
 		09AD8EF317A8C3AF0010CAC6 /* UserAuthenticationExample */ = {
 			isa = PBXGroup;
 			children = (
+				09AD8F1417A8C5F30010CAC6 /* GCDSingleton.h */,
+				09AD8F1A17A8C9550010CAC6 /* InvocationLoginAction.h */,
+				09AD8F1B17A8C9550010CAC6 /* InvocationLoginAction.m */,
+				09AD8F1D17A8CC120010CAC6 /* InvocationBuilder.h */,
+				09AD8F1E17A8CC120010CAC6 /* InvocationBuilder.m */,
+				09AD8F1817A8C8F20010CAC6 /* NSInvocation+Utilities.h */,
+				09AD8F1917A8C8F20010CAC6 /* NSInvocation+Utilities.m */,
+				09AD8F2117A8CCB90010CAC6 /* NSObject+Invocation.h */,
+				09AD8F2217A8CCB90010CAC6 /* NSObject+Invocation.m */,
+				09AD8F1517A8C60C0010CAC6 /* AccountManager.h */,
+				09AD8F1617A8C60C0010CAC6 /* AccountManager.m */,
 				09AD8EFC17A8C3AF0010CAC6 /* AppDelegate.h */,
 				09AD8EFD17A8C3AF0010CAC6 /* AppDelegate.m */,
 				09AD8EF417A8C3AF0010CAC6 /* Supporting Files */,
+				09AD8F0A17A8C4830010CAC6 /* DummyViewController.h */,
+				09AD8F0B17A8C4830010CAC6 /* DummyViewController.m */,
+				09AD8F0C17A8C4830010CAC6 /* DummyViewController.xib */,
+				09AD8F0F17A8C4EF0010CAC6 /* LoginViewController.h */,
+				09AD8F1017A8C4EF0010CAC6 /* LoginViewController.m */,
+				09AD8F1117A8C4EF0010CAC6 /* LoginViewController.xib */,
 			);
 			path = UserAuthenticationExample;
 			sourceTree = "<group>";
@@ -154,6 +197,8 @@
 				09AD8F0017A8C3AF0010CAC6 /* Default.png in Resources */,
 				09AD8F0217A8C3AF0010CAC6 /* Default@2x.png in Resources */,
 				09AD8F0417A8C3AF0010CAC6 /* Default-568h@2x.png in Resources */,
+				09AD8F0E17A8C4830010CAC6 /* DummyViewController.xib in Resources */,
+				09AD8F1317A8C4EF0010CAC6 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +211,13 @@
 			files = (
 				09AD8EFA17A8C3AF0010CAC6 /* main.m in Sources */,
 				09AD8EFE17A8C3AF0010CAC6 /* AppDelegate.m in Sources */,
+				09AD8F0D17A8C4830010CAC6 /* DummyViewController.m in Sources */,
+				09AD8F1217A8C4EF0010CAC6 /* LoginViewController.m in Sources */,
+				09AD8F1717A8C60C0010CAC6 /* AccountManager.m in Sources */,
+				09AD8F1C17A8C9550010CAC6 /* InvocationLoginAction.m in Sources */,
+				09AD8F1F17A8CC450010CAC6 /* InvocationBuilder.m in Sources */,
+				09AD8F2317A8CCBA0010CAC6 /* NSObject+Invocation.m in Sources */,
+				09AD8F2417A8CDD60010CAC6 /* NSInvocation+Utilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
