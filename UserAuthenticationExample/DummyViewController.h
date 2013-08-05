@@ -12,5 +12,7 @@
 - (IBAction)onActionRequireUserSignInSimple:(id)sender;
 - (IBAction)onLogoutButton:(id)sender;
 - (IBAction)onActionRequireUserSigninInvocation:(id)sender;
+- (IBAction)OnActionRequireUserSignInBlock:(id)sender;
+- (IBAction)OnActionRequireUserSignInCBlock:(id)sender;
 
 @end

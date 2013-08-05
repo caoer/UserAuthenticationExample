@@ -63,6 +63,18 @@
     [InvocationLoginAction performAuthorizedAction:invocation];
 }
 
+- (IBAction)OnActionRequireUserSignInBlock:(id)sender {
+    [AccountManager ensureLoggedIn:^{
+        [self doActionAfterLoggedIn];
+    }];
+}
+
+- (IBAction)OnActionRequireUserSignInCBlock:(id)sender {
+    ensureLoggedIn(^{
+        [self doActionAfterLoggedIn];
+    });
+}
+
 
 - (IBAction)onLogoutButton:(id)sender {
     [AccountManager shared].loggedIn = NO;
@@ -75,4 +87,5 @@
                                           cancelButtonTitle:@"OK" otherButtonTitles: nil];
     [alert show];
 }
+
 @end

@@ -17,4 +17,7 @@
 
 #pragma makr - Example 1 Invocation
 @property (nonatomic, strong)NSInvocation *onSuccessInvocation;
+
+#pragma mark - Example 2 Block
+@property (nonatomic, copy)id onSuccessLoggedInBlock;
 @end

@@ -10,7 +10,12 @@
 #import "GCDSingleton.h"
 
 @interface AccountManager : NSObject
+SYNTHESIZE_SINGLETON_FOR_CLASS_HEADER(AccountManager)
+
 @property (nonatomic, assign, getter = isLoggedIn)BOOL loggedIn;
 
-SYNTHESIZE_SINGLETON_FOR_CLASS_HEADER(AccountManager)
++ (void)ensureLoggedIn:(void (^)(void))block;
+
 @end
+
+void ensureLoggedIn(void (^block)());

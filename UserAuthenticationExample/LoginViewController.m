@@ -42,11 +42,22 @@
     [self dismissViewControllerAnimated:YES completion:^{
         if (self.afterLoginBlock) {
             ((void (^)(void))self.afterLoginBlock)();
+            self.afterLoginBlock = nil;
         }
         
         if (self.onSuccessInvocation) {
             [self.onSuccessInvocation invoke];
+            self.onSuccessInvocation = nil;
+        }
+        
+        if (self.onSuccessLoggedInBlock) {
+            ((void (^)(void))self.onSuccessLoggedInBlock)();
+            self.onSuccessLoggedInBlock = nil;
         }
     }];
+}
+
+- (void)dealloc {
+    
 }
 @end
